@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+import './App.css'; 
+import CharacterCard from './CharacterCard';
 function App() {
  return (
  <div>
- Hello World test test
+ <CharacterCard value="h"/>
+ <CharacterCard value="i"/>
  </div>
  );
-}
-export default App;
+}export default App;
